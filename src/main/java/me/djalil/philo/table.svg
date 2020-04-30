@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg182"
+   version="1.1"
+   viewBox="0 0 400 300"
+   height="500"
+   width="530">
+  <metadata
+     id="metadata186">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs120">
+    <style
+       id="style118">
+      * {
+        user-select: none;
+        pointer-events: none;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 45px;
+        font-family: "Serif";
+      }
+
+      .bowel {
+        fill: orange;
+      }
+
+      .bowel, .cls-10, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      /* Plato*/
+      #p0 .box {
+        fill: olive;
+      }
+
+      /* Aristotle */
+      #p1 .box  {
+        fill: blue;
+      }
+
+      /* Mill */
+      #p2 .box  {
+        fill: magenta !important;
+      }
+
+      /* Russell */
+      #p3 .box  {
+        fill: green;
+      }
+
+      /* Sartre */
+      #p4 .box  {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <ellipse
+     style="fill:#d7d7d7"
+     id="ellipse122"
+     ry="100"
+     rx="110"
+     cy="156.9057"
+     cx="198.92456"
+     class="cls-1" />
+  <g
+     transform="translate(-9.943503,-13.673027)"
+     id="Bowls">
+    <circle
+       style="fill:#ffa500;fill-rule:evenodd"
+       id="circle124"
+       r="22.358999"
+       cy="150.98399"
+       cx="291.328"
+       class="bowel" />
+    <circle
+       style="fill:#ffa500;fill-rule:evenodd"
+       id="circle126"
+       r="22.358999"
+       cy="226.91367"
+       cx="259.0358"
+       class="bowel" />
+    <path
+       style="fill:#ffa500;fill-rule:evenodd"
+       id="path128"
+       d="m 161.42422,205.63197 a 22.706,22.706 0 1 1 -22.336,22.7 22.521,22.521 0 0 1 22.336,-22.7 z"
+       class="bowel" />
+    <circle
+       style="fill:#ffa500;fill-rule:evenodd"
+       id="circle130"
+       r="22.358999"
+       cy="106.016"
+       cx="212.172"
+       class="bowel" />
+    <path
+       style="fill:#ffa500;fill-rule:evenodd"
+       id="path132"
+       d="m 131.271,128.723 a 22.72,22.72 0 1 1 -22.335,22.717 22.529,22.529 0 0 1 22.335,-22.717 z"
+       class="bowel" />
+  </g>
+  <g
+     transform="translate(-12.075472,-15.09434)"
+     id="Forks">
+    <path
+       style="stroke-width:1.51193833"
+       d="m 279.49524,96.936656 2.46401,1.526394 -32.27912,39.52146 -2.464,-1.5264 z"
+       id="f0" />
+    <path
+       style="stroke-width:1.63147283"
+       d="m 268.22743,190.61544 -0.42902,-4.1811 40.97769,21.74044 0.4279,4.1811 z"
+       id="f1" />
+    <path
+       style="stroke-width:1.4401989"
+       d="m 214.71066,222.908 3.19408,0.11244 1.99589,42.89678 -3.189,-0.11121 z"
+       id="f2" />
+    <path
+       style="stroke-width:1.52292442"
+       d="m 113.96484,205.80191 -0.5305,-3.53718 40.10559,-18.29366 0.52932,3.53913 z"
+       id="f3" />
+    <path
+       style="stroke-width:1.42785537"
+       d="m 142.59344,98.268177 2.33395,-1.464146 36.01818,33.955079 -2.33396,1.46414 z"
+       id="f4" />
+  </g>
+  <g
+     transform="matrix(0.89610017,0,0,0.92149144,7.9588052,-2.4306541)"
+     id="ForkNumbers">
+    <text
+       y="151.18509"
+       x="242.812"
+       style="font-size:16.33499908px;font-family:Serif;stroke-width:0.36300001"
+       class="cls-2"
+       id="f0-text">0</text>
+    <text
+       style="font-size:45px;font-family:Serif"
+       transform="matrix(0.326,0,0,0.326,260.812,192.047)"
+       class="cls-2"
+       id="f1-text">1</text>
+    <text
+       y="213.97697"
+       x="212.41589"
+       style="font-size:16.06500053px;font-family:Serif;stroke-width:0.35699999"
+       class="cls-2"
+       id="f2-text">2</text>
+    <text
+       y="186.35994"
+       x="162.62755"
+       style="font-size:15.11999989px;font-family:Serif;stroke-width:0.336"
+       class="cls-2"
+       id="f3-text">3</text>
+    <text
+       y="146.03497"
+       x="179.11345"
+       style="font-size:14.71500015px;font-family:Serif;stroke-width:0.32699999"
+       class="cls-2"
+       id="f4-text">4</text>
+  </g>
+  <g
+     transform="matrix(1.297478,0,0,1,-74.254767,-13.584906)"
+     id="p0">
+    <path
+       style="fill:#808000"
+       id="path147"
+       d="m 183.651,3.04 h 58.168 .98228v 61.275 h -58.168 z"
+       class="box" />
+    <text
+       y="18.177"
+       x="189.30392"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       id="text149"
+       class="cls-6">0. Plato</text>
+    <text
+       y="35.046131"
+       x="185"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       class="cls-6"
+       id="p0-desc">is starting</text>
+    <text
+       style="font-size:45px;font-family:Serif"
+       transform="matrix(0.24,0,0,0.24,196.756,57.652)"
+       class="cls-6"
+       id="p0-hp">100</text>
+  </g>
+  <g
+     transform="matrix(1.1229035,0,0,1,-41.807226,9.056604)"
+     id="p1">
+    <path
+       style="fill:#0000ff;stroke-width:1.07517612"
+       id="path154"
+       d="m 315.6,79.7 h 67.21121 v 61.274 H 315.6 Z"
+       class="box" />
+    <text
+       y="93.402"
+       x="318.54529"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       id="text156"
+       class="cls-6">1. Aristotle</text>
+    <text
+       y="110.22256"
+       x="320.56555"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       class="cls-6"
+       id="p1-desc">is starting</text>
+    <text
+       y="132.83"
+       x="335.35574"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       class="cls-6"
+       id="p1-hp">100</text>
+  </g>
+  <g
+     transform="matrix(1.2980135,0,0,1,-137.19903,11.734356)"
+     id="p2">
+    <path
+       style="fill:#800080"
+       id="path161"
+       d="M 313.456,224.165 H 371.6 v 61.274 h -58.144 z"
+       class="box" />
+    <text
+       style="font-size:45px;font-family:Serif"
+       id="text163"
+       transform="matrix(0.24,0,0,0.24,321.856,237.844)"
+       class="cls-6">2. Mill</text>
+    <text
+       y="253.13626"
+       x="315"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       class="cls-6"
+       id="p2-desc">is starting</text>
+    <text
+       style="font-size:45px;font-family:Serif"
+       transform="matrix(0.24,0,0,0.24,326.537,278.762)"
+       class="cls-6"
+       id="p2-hp">100</text>
+  </g>
+  <g
+     transform="matrix(1.1373585,0,0,1,-0.89544094,5.602814)"
+     id="p3">²
+    <path
+   style="fill:#008000"
+   id="path168"
+   d="m 53.124,233.685 h 66.357 V 294.96 H 53.124 Z"
+   class="box" />
+<text
+   style="font-size:45px;font-family:Serif"
+   id="text170"
+   transform="matrix(0.24,0,0,0.24,60.58,246.9)"
+   class="cls-6">3. Russell</text>
+<text
+   y="263.76913"
+   x="57.070282"
+   style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+   class="cls-6"
+   id="p3-desc">is starting</text>
+<text
+   y="288.64313"
+   x="70.92028"
+   style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+   class="cls-6"
+   id="p3-hp">100</text>
+</g>
+  <g
+     transform="matrix(1.2551758,0,0,1,-28.943862,-16.603774)"
+     id="p4">
+    <path
+       style="fill:#ff0000"
+       id="path175"
+       d="m 32.719864,114.732 h 58.156 v 61.281 h -58.156 z"
+       class="box" />
+    <text
+       y="128.442"
+       x="37.507458"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       id="text177"
+       class="cls-6">4. Sartre</text>
+    <text
+       y="145"
+       x="34"
+       style="font-size:10.80000019px;font-family:Serif;stroke-width:0.23999999"
+       class="cls-6"
+       id="p4-desc">is starting</text>
+    <text
+       style="font-size:45px;font-family:Serif"
+       transform="matrix(0.24,0,0,0.24,48.21,169.36)"
+       class="cls-6"
+       id="p4-hp">100</text>
+  </g>
+</svg>

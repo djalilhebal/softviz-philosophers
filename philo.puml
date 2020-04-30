@@ -1,0 +1,60 @@
+@startuml philo
+skinparam classAttributeIconSize 0
+
+package me.djalil.philo {
+
+  class Philo {
+    startSim(): void
+    stopSim(): void
+    loadPreset(String name): void
+  }
+  Philo -- SimControl
+
+  class SimControl {
+    # act(int actor, String action): void
+    # start(): void
+    # stop(): void
+  }
+
+  SimControl --> SimView
+  SimControl --> SimModel
+  SimModel -- SimView
+
+  class SimView {
+    + constructor(SimModel model)
+    + redraw(): void
+    + start(): void
+    + stop(): void
+  }
+
+  class SimModel {
+    + start(): void
+    + stop(): void
+  }
+  SimModel *-- "5" Philosopher
+  SimModel *-- "1" DinnerTable
+
+  class DinnerTable {
+    - forks: int[]
+
+    # setOwner(int i, int j): void
+    # unsetOwner(int i, int j): void
+  }
+
+  class Philosopher {
+    - engine: ScriptEngine
+    - activity: String
+
+    + getName(): String
+    + getColor(): String
+    + getHealth(): int
+    + getActivity(): String
+    + {static} narrate(Philosopher p): String
+
+    # maybePanic(): void
+    # isDead(): boolean
+  }
+
+}
+
+@enduml

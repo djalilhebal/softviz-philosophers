@@ -1,0 +1,90 @@
+PhiloFX: TODO
+==============
+
+- Convert to Maven project (for easier installs/builds)
+
+- Use FXML instead of creating elements in code
+
+- Tidy up the code
+
+- Update SimViewSvg (make the code more Kaito-y)
+
+- Convert SimViewSvg to SimViewFx
+
+- Add SimView.alert(..) (or just FX alert on error)
+
+---
+
+- Preload Nashorn (to make the UI non-blocking)
+```java
+SimControl.engineReady = new CountDownLatch(1);
+
+SimControl.start() {
+  engineReady.await();
+  // continue as usual...
+} 
+
+synchrohnized void preloadEngine() {
+  if (engineReady.getCount() == 0) {
+    log("WARNING: preloadEngine() should not be called more than one!");
+    return;
+  }
+
+  new Thread() {
+    public void run() {
+      // load...
+      engineReady.down();
+    }
+  }.start();
+}
+```
+
+---
+
+- SimViewText: Support Windows.
+
+- SimViewFX(SimModel model, Group fxGroup)
+same as SimViewSvg but Document > Group, Element > Node, getElementById(..) > lookup(..)
+
+- MAYBE add `void setModel(SimModel model);`
+
+- SimControl should be a thread so that it doesn't block when starting to start a new sim
+
+- DEBUG = false if GUI
+
+- Maybe preload the EngineManager
+
+- Maybe the Sim should stop ASAP as a philosopher panics
+
+- Maybe run both the variable initiation part and the algo execution using the same ScriptContext? Possible?
+
+---
+
+Do:
+```java
+if (args.length == 0) {
+  // GUI
+  sim = new SimControl(vars, algo, $doc);
+} else {
+  // CLI
+  if (args.length == 1) {
+    // Using preset
+    // ...
+  } else if (args.length == 2) {
+    // Using user scripts
+    // ...
+  }
+  sim = new SimControl(vars, algo);
+}
+```
+
+---
+
+```java
+// MAYBE turn the engine into a thread instead of eval'ing it
+Invocable inv = (Invocable) engine;
+Runnable r = inv.getInterface(Runnable.class);
+engineThread = new Thread(r);
+engineThread.start();
+engineThread.join();
+```
