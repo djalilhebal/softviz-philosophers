@@ -1,13 +1,18 @@
 # PhiloFX: Dining Philosophers
-Dinning philosophers problem visualization in Java _#JavaFX #JavaScriptingAPI #Nashorn_
+Dinning philosophers problem visualization in Java _#JavaFX #JavaScriptingAPI #Nashorn_  
+(This is a rough work-in-progress--see the [TODO file](./TODO).)
 
-After [**Trois Threads**](https://djalil.me/trash/2019-11/dac-exo3/?scenario=p1,p2,p3) (viz) and [**La Circulation**](https://djalil.me/trash/2019-12/dac-exo6/) (web simulation), I think it's time for a more serious simulation in Java.
+<p style="text-align: center;">
+  <img alt="Logo" src="img/logo.png"
+    style="background:white; width: 100px; height: 100px;"
+  />
+</p>
 
-This is a rough work-in-progress: See [TODO](./TODO).
+After [**Trois Threads**](https://djalil.me/trash/2019-11/dac-exo3/?scenario=p1,p2,p3) (useless vizualization) and [**Traffic Sim**](https://github.com/djalilhebal/softviz-semaphores) (web simulation), I think it's time for a more serious simulation in Java.
 
-![](philo-cli.png)
+![Screenshot of the graphical user interface](philo-gui.png)
 
-![](philo-gui.png)
+![Screenshot of the command line interface](philo-cli.png)
 
 ## How to use
 
@@ -46,24 +51,30 @@ _\* These are read from the `presets` folder in the current working directory._
 ## How it works
 ...
 
-- Nashorn to execute user code
+Nashorn to execute user code
 
-![](philo-uml.png)
+![UML class diagram](philo-uml.png)
 
-## Java
+### Java
 - JavaScript's `setTimeout`/`setInterval` counterpart in Java: [Timer](https://docs.oracle.com/javase/8/docs/api/java/util/Timer.html) and [TimerTask](https://docs.oracle.com/javase/8/docs/api/java/util/TimerTask.html).
 
 - Visualizing using SVG by updating it through the `Document` interface via JavaFX's [WebEngine](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/web/WebEngine.html).
 
-## Notes
+### Notes
 - Alternative scripting engine: Mozilla's [Rheno](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Documentation)
 
-## Refs
+## References and Good Reads
 - Oracle's <cite>Java Scripting Programmer's Guide</cite>
 - Andrew S. Tanenbaum - <cite>Modern Operating Systems 4th ed.</cite>
 
-## Credits
+## Credits and Thanks
+
 - The "animation" is partially inspired by Simon Ingeson's <a href="https://github.com/smonn/hungrythinkers">Hungry Thinkers</a>.
+
+- The logo is composed from
+  * [Chopsticks by Peter Emil van den Berg, NL](https://thenounproject.com/search/?q=chopsticks&i=738575)
+  * [Philosopher's stone by Locad, GB](https://thenounproject.com/search/?q=philosopher&i=1419650)
+
 
 ## License
 By @djalilhebal and @wanisramdani, under CC BY 3.0
